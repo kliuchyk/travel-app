@@ -11,3 +11,14 @@ body {
   height: 100vh;
   box-sizing: border-box;
 }
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.MainContent {
+ background-color: #1c1c1c;
+ height: 100%;
+}

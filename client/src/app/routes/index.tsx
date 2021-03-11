@@ -6,7 +6,7 @@ import PATHS from "./paths";
 // TODO: add import components as Lazy
 const AppRoutes = () => {
   return (
-    <main>
+    <main className="MainContent">
       <Switch>
         <Route exact path={PATHS.detailsPage} component={CountryDetailsPage} />
         <Route exact path={PATHS.home} component={CountriesPage} />

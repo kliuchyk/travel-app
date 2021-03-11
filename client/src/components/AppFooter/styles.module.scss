@@ -1,0 +1,23 @@
+.AppFooter {
+  min-height: 120px;
+  background: #575757;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.Year {
+  margin: 0 50px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.withBG {
+  height: 64px;
+  width: 100px;
+  background-image: url(../../assets/img/rs_school_js.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
