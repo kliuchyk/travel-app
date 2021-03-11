@@ -21,6 +21,8 @@ const localeSchema = new Schema({
 });
 
 const countrySchema = new Schema({
+  countryName: String,
+  capital: String,
   imageUrl: String,
   videoUrl: String,
   currency: {
