@@ -1,7 +1,5 @@
-import React from "react";
-
 const CountryDetailsPage = () => {
-  return <div></div>;
+  return <div>Details page</div>;
 };
 
 export default CountryDetailsPage;
