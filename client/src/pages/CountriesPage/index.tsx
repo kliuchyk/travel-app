@@ -1,5 +1,7 @@
+import CountryList from "../../components/CountryList";
+
 const CountriesPage = () => {
-  return <div>Home page</div>;
+  return <CountryList />;
 };
 
 export default CountriesPage;

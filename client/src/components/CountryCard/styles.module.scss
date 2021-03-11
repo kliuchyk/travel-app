@@ -1,0 +1,25 @@
+.Card {
+  width: 350px;
+  color: #fff;
+  background-color: #858585;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.ImgSection {
+  img {
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 200px;
+    max-width: 100%;
+  }
+}
+
+.NameSection {
+  padding: 15px;
+  font-size: 24px;
+  font-weight: 700;
+}
