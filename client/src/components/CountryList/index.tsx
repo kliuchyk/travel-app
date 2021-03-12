@@ -16,7 +16,7 @@ const CountryList = () => {
   return (
     <ul className={sm.CountryList}>
       {countries.map(({ _id, countryName, capital, imageUrl }) => (
-        <Link to={`/country/${_id}`} key={_id}>
+        <Link to={`/country/${_id}`} key={_id} className={sm.CardLink}>
           <CountryCard
             id={_id}
             name={countryName}
