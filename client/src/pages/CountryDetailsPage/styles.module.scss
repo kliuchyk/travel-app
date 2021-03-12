@@ -1,0 +1,27 @@
+.Header {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+}
+
+.ImageContainer {
+  width: 50%;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.About {
+  color: beige;
+  font-size: 21px;
+  line-height: 1.8;
+  background-color: rgb(66, 66, 66);
+  padding: 25px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 20px auto;
+}
