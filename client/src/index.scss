@@ -1,8 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
   background: #1c1c1c;
-  box-sizing: border-box;
 }
 
 #root {
@@ -12,6 +15,6 @@ body {
 }
 
 .MainContent {
- background-color: #1c1c1c;
- padding: 0 60px 0;
+  background-color: #1c1c1c;
+  padding: 0 60px 0;
 }

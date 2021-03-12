@@ -6,7 +6,7 @@ interface Country {
   currency: string;
   imageUrl: string;
   localizations: [];
-  videoUrl: string;
+  videoId: string;
   about: string;
   _id: string;
 }

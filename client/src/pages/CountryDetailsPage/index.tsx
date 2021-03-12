@@ -1,3 +1,4 @@
+import EmbeddedVideo from "components/EmbeddedVideo";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import sm from "./styles.module.scss";
@@ -38,6 +39,7 @@ const CountryDetailsPage = () => {
             <img src={details.imageUrl} alt={details.countryName} />
           </div>
           <div className={sm.About}>{details.about}</div>
+          {details?.videoId && <EmbeddedVideo embedId={details.videoId} />} 
         </>
       )}
     </div>
