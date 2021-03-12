@@ -10,6 +10,15 @@ class CountriesService {
     const newCountry = await Country.create(country);
     return newCountry;
   }
+
+  async getDetails(id) {
+    if (!id) {
+      throw new Error("Id not specified");
+    }
+
+    const countryDetails = await Country.findById(id);
+    return countryDetails;
+  }
 }
 
 export default new CountriesService();

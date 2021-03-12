@@ -19,6 +19,15 @@ class CountriesController {
       res.status(500).json(error);
     }
   }
+
+  async getDetails(req: Request, res: Response) {
+    try {
+      const details = await CountriesService.getDetails(req.params.id);
+      res.json(details);
+    } catch(error) {
+      res.status(500).json(error);
+    }
+  }
 }
 
 export default new CountriesController();
